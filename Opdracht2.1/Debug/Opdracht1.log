@@ -1,0 +1,7 @@
+﻿  Bankrekening.cpp
+d:\git resp\heobpa\opdracht2\bankrekening.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\git resp\heobpa\opdracht2\bankrekening.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\git resp\heobpa\opdracht2\bankrekening.h(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\git resp\heobpa\opdracht2\bankrekening.cpp(44): warning C4018: '<': signed/unsigned mismatch
+  Opdracht1.vcxproj -> D:\git resp\HEOBPA\Opdracht2\Debug\Opdracht1.exe
+  Opdracht1.vcxproj -> D:\git resp\HEOBPA\Opdracht2\Debug\Opdracht1.pdb (Full PDB)

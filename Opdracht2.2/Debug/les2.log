@@ -1,0 +1,9 @@
+﻿  Config.cpp
+d:\git resp\heobpa\opdracht2.2\config.h(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\git resp\heobpa\opdracht2.2\config.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\git resp\heobpa\opdracht2.2\config.h(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\git resp\heobpa\opdracht2.2\config.cpp(16): warning C4018: '<': signed/unsigned mismatch
+d:\git resp\heobpa\opdracht2.2\config.cpp(28): warning C4018: '<': signed/unsigned mismatch
+d:\git resp\heobpa\opdracht2.2\config.cpp(30): warning C4018: '<': signed/unsigned mismatch
+  les2.vcxproj -> D:\git resp\HEOBPA\Opdracht2.2\Debug\les2.exe
+  les2.vcxproj -> D:\git resp\HEOBPA\Opdracht2.2\Debug\les2.pdb (Full PDB)
