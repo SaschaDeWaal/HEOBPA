@@ -12,8 +12,8 @@ T biggest(T first, T second) {
 	return second;
 }
 
-template<class  float[]>
-void sort(float a[], size_t size) {
+template<typename T>
+void sort(T a[], size_t size) {
 	size_t idx, pass;
 	for (pass = 1; pass <= size; ++pass)
 	{
@@ -30,7 +30,7 @@ void sort(float a[], size_t size) {
 int main(){
 	float floats[] = {1.2, 6.4, 2.1};
 
-	 sort(floats[], 3);
+	 sort(floats, 3);
 
 
 	for (float i : floats) {
