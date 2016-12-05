@@ -1,0 +1,5 @@
+﻿  opdracht3.cpp
+d:\git resp\heobpa\opdracht3\opdracht3\opdracht3.cpp(23): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+d:\git resp\heobpa\opdracht3\opdracht3\opdracht3.cpp(23): warning C4305: 'initializing': truncation from 'double' to 'float'
+  opdracht3.vcxproj -> D:\git resp\HEOBPA\opdracht3\opdracht3\Debug\opdracht3.exe
+  opdracht3.vcxproj -> D:\git resp\HEOBPA\opdracht3\opdracht3\Debug\opdracht3.pdb (Full PDB)

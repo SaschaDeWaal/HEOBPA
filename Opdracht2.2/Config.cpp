@@ -27,6 +27,7 @@ ostream & operator<<(ostream & os, const Config & config){
 
 	for (int i = 0; i < config.keys.size(); i++) {
 		json += "\"" + config.keys[i] + "\" : \"" + config.values[i] + "\"";
+      
 		if (i < config.keys.size() - 1) json += ", ";
 	}
 	
