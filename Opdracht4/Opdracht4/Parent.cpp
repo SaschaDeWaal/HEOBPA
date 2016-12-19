@@ -6,16 +6,17 @@
 #include "Parent.h"
 
 
-Parent::Parent(string name) {
-    this->name = name;
-	this->child = new Child("child of " + name);
+Parent::Parent() {
+
 }
 
 
 Parent::Parent(const Parent& parent){
 	if (this != &parent) {
+		Child newChild = *parent.child;
+
 		this->name = "copy of " + parent.name;
-		this->child = parent.child;
+		this->child = new Child(*parent.child);
 	}
 }
 
