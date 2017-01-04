@@ -1,0 +1,24 @@
+﻿  Opdracht5.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(30): note: see reference to function template instantiation '_Ty std::_Accumulate_unchecked<double*,_Ty,_Fn2>(_InIt,_InIt,_Ty,_Fn2 &)' being compiled
+          with
+          [
+              _Ty=int,
+              _Fn2=std::plus<void>,
+              _InIt=double *
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(38): note: see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(_InIt,_InIt,_Ty,_Fn2)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn2=std::plus<void>
+          ]
+  d:\git resp\heobpa\opdracht5\opdracht5\opdracht5.cpp(83): note: see reference to function template instantiation '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,int>(_InIt,_InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  Opdracht5.vcxproj -> D:\git resp\HEOBPA\Opdracht5\Opdracht5\Debug\Opdracht5.exe
+  Opdracht5.vcxproj -> D:\git resp\HEOBPA\Opdracht5\Opdracht5\Debug\Opdracht5.pdb (Full PDB)
