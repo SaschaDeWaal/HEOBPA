@@ -18,14 +18,9 @@ class Parent {
 		{
 			std::cout << "copy assignment of Parent\n" << endl;
 			
-			/*delete (this->child);
-			this->child = new Child("new");
-
 			this->name = other.name;
-			*(this->child) = *(other.child);*/
-			
-			
-			unique_ptr<Child> child = unique_copy<Child>(other.child);
+			delete (&this->child);
+			unique_ptr<Child> child = make_unique<Child>(other.child);
 
 
 			return *this;
