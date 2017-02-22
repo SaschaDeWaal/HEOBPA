@@ -1,9 +1,10 @@
-﻿  stdafx.cpp
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Opdracht4.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Parent.cpp
 d:\git resp\heobpa\opdracht6\opdracht4\parent.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\git resp\heobpa\opdracht6\opdracht4\parent.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   Opdracht4.cpp
 d:\git resp\heobpa\opdracht6\opdracht4\parent.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  Child.cpp
+d:\git resp\heobpa\opdracht6\opdracht4\parent.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   Generating Code...
-  Opdracht4.vcxproj -> D:\git resp\HEOBPA\Opdracht6\Opdracht4\Debug\Opdracht4.exe
-  Opdracht4.vcxproj -> D:\git resp\HEOBPA\Opdracht6\Opdracht4\Debug\Opdracht4.pdb (Full PDB)
+  Opdracht4.vcxproj -> D:\git resp\HEOBPA\Opdracht6\Opdracht4\Debug\Opdracht6.exe
+  Opdracht4.vcxproj -> D:\git resp\HEOBPA\Opdracht6\Opdracht4\Debug\Opdracht6.pdb (Full PDB)

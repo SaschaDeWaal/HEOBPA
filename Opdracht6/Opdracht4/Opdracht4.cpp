@@ -1,38 +1,28 @@
 #include "stdafx.h"
-
 #include <iostream>
 #include <string>
 #include "Parent.h"
 
-
 using namespace std;
 
-// LET OP: deze code compileert nu niet!! (waarom niet?...)
 int main() {
 
-	Parent* p1 = new Parent();
+	//create shared parent
+	shared_ptr<Parent>  p1 = make_shared<Parent>();
 	p1->name = "parent1";
-	p1->child = new Child("child1");
+	p1->child = make_unique<Child>();
 
-	cout << *p1 << endl;
+	cout << "First pointer" << *p1 << endl;
 
-	Parent* p2 = new Parent(*p1); // roept de copy constructor aan
-	cout << *p2 << endl;
+	//copy parent and show content
+	shared_ptr<Parent>  p2 = p1;
+	cout << "Copy of shared point: " << *p2 << endl;
 
-	cout << p1->child << " vs " << p2->child << endl;
+	//show pointer reference 
+	cout << p1 << " vs " << p2 << endl;
 
-	Parent* p3 = new Parent();
-	p3->name = "parent3";
-	p3->child = new Child("child3");
-
-	cout << *p3 << endl;
-
-	*p3 = *p1; // roept de assignment operator aan
-	cout << *p3 << endl;
-
-	
+	//wait for exit
 	int exitCode = 0;
 	cin >> exitCode;
-
 	return exitCode;
 }

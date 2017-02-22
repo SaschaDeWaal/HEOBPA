@@ -6,6 +6,9 @@ Child::Child(string name) {
     this->name = name;
 }
 
+Child::Child() {
+	this->name = "naamloos";
+}
 
 Child::Child(const Child& child)
 {

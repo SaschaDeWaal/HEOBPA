@@ -1,7 +1,0 @@
-﻿  ConsoleApplication1.cpp
-d:\git resp\heobpa\les3\consoleapplication1\child.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-d:\git resp\heobpa\les3\consoleapplication1\child.h(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-d:\git resp\heobpa\les3\consoleapplication1\parent.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-d:\git resp\heobpa\les3\consoleapplication1\consoleapplication1.cpp(8): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  ConsoleApplication1.vcxproj -> D:\git resp\HEOBPA\les3\ConsoleApplication1\Debug\ConsoleApplication1.exe
-  ConsoleApplication1.vcxproj -> D:\git resp\HEOBPA\les3\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Full PDB)

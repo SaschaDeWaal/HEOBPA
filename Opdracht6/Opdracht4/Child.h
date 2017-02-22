@@ -8,6 +8,7 @@ using namespace std;
 
 class Child {
     public:
+		Child();
         Child(string name);
 		Child(const Child& child);
 

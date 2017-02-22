@@ -20,7 +20,7 @@ class Parent {
 			
 			this->name = other.name;
 			delete (&this->child);
-			unique_ptr<Child> child = make_unique<Child>(other.child);
+			this->child = move(other.child);
 
 
 			return *this;
